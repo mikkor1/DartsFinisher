@@ -54,7 +54,7 @@ public class EspOhjain : MonoBehaviour
 
         using( ClientWebSocket soketti = new ClientWebSocket())
         {
-            Uri osoite = new Uri("ws://172.16.200.56:80"); //Muista vaihtaa omaan osoitteeseen
+            Uri osoite = new Uri("ws://xxxxxxxx"); //Muista vaihtaa omaan osoitteeseen
             yhteysPoletti = new CancellationTokenSource();
             // Kun kaikki toimii, laita seuraava rivi kommentteihin.
            //yhteysPoletti.CancelAfter(20000);
